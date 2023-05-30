@@ -2,146 +2,143 @@
  :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
-
   }
 
-
 body {
-    
     display: flex;
     background-color: var(--body-bg-color);
     align-items: center;
     justify-content: center;
 }
 
-main { border: 2px solid red;
-
+main { 
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding: 50px;
-
     width: 1440px;
     height: 1024px;
-
 }
-
-.profile_img{
-    
+.profile_img{ 
     border-radius: 50%;
     width: 200px;
     height: 200px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
-
-
-.profile_container{
-
+.profile_container {
     display: flex;
     width: 213px;
     height: 213px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin: 39px;
-
+    margin: 15px;
     border: 2px solid #BB99DD;
 }
 
-.ig_link {
+#ig_link {
     width:99px;
     height: 24px;
     text-align: center;
+    margin-bottom: 33px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color:#BB99DD;
+    text-decoration: none;
 }
 
-.links {border: 2px solid red;
-
+.links {
     display: flex;
     flex-direction: column;
     justify-content: space-around 16px;
-    
     justify-content: space-evenly;
     row-gap: 16px;
     margin: 33px;
-
-    
+    font-family:'Poppins';
+    font-weight: 600;
+    color:#BB99DD;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-
-
-#first_link {
-
+#link_1 {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-
     width: 336px;
     height: 49px;
-    
-    border: 2px solid #BB99DD;
-    border-radius: 4px; 
-
-}
-   
-#second_link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-
-    width: 336px;
-    height: 49px;
-    
     border: 2px solid #BB99DD;
     border-radius: 4px;
-    
+    color: #BB99DD;
+    text-decoration: none;
 }
-
-#third_link {
+#link_2 {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-    
     width: 336px;
     height: 49px;
-
     border: 2px solid #BB99DD;
-    border-radius: 4px; 
- 
+    border-radius: 4px;
+    color: #BB99DD;
+    text-decoration: none;
 }
 
-#forth_link {
+#link_3 {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-
     width: 336px;
     height: 49px;
-
     border: 2px solid #BB99DD;
     border-radius: 4px; 
-  
-
+    color: #BB99DD;
+    
+    text-decoration: none;
 }
 
-.icon { border: 4px solid red;
-width: 236px;
-height: 24px;
-left: 601px;
-top: 798px;
-
-align-content: center;
-justify-content: center;
-padding: 20px;
-margin: 35px;
-
+#link_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 336px;
+    height: 49px;
+    border: 2px solid #BB99DD;
+    border-radius: 4px; 
+    color: #BB99DD;
+    text-decoration: none;
 }
+
+.icon { 
+    display:flex;
+    width: 236px;
+    height: 24px;
+    align-content: center;
+    justify-content: center;
+    margin:35px;
+    column-gap: 29px;
+    flex-direction: row-reverse;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#link_1:hover{
+    background-color: rgb(240, 240, 240);
+}
+#link_2:hover{
+    background-color: rgb(240, 240, 240);
+}
+#link_3:hover{
+    background-color: rgb(240, 240, 240);
+}
+#link_4:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+
+
